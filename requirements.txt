@@ -1,0 +1,15 @@
+# Core ML
+tensorflow-cpu>=2.16,<2.20
+scikit-learn>=1.4
+numpy>=1.26
+pandas>=2.1
+
+# Data
+yfinance>=0.2.40
+
+# Dashboard
+streamlit>=1.36
+plotly>=5.22
+
+# REST API (optional serving layer)
+flask>=3.0

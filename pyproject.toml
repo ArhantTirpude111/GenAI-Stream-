@@ -1,0 +1,17 @@
+[project]
+name = "stockpreds"
+version = "1.0.0"
+description = "LSTM-based stock price forecasting with a Streamlit dashboard and Flask API"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
